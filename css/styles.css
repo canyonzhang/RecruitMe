@@ -1,0 +1,42 @@
+.app{
+  border-radius: 25px;
+  height: 50%;
+  widthL 50%;
+}
+
+h1{
+  font-family: 'Play', sans-serif;
+  line-height: normal;
+  color: white;
+}
+
+/* Navbar CSS */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#navbuttons{
+  margin-left: 200%;
+}
+
+.container-fluid{
+  padding: 2% 0%;
+}
+
+body{
+ font-family: 'Poppins', sans-serif;
+}
+button{
+  font-family: 'Play', sans-serif;
+}
+#title{
+  background-color: #004385;
+}
