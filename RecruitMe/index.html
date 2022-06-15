@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>RecruitMe</title>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&family=Poppins:wght@200;300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+  <!-- bootstrap scripts-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script> <!-- also need this javascript-->
+
+  <!-- fontawesome script-->
+  <script src="https://kit.fontawesome.com/b6c890bcc5.js" crossorigin="anonymous"></script>
+  <!-- external css stylesheet -->
+  <link rel="stylesheet" href="css/styles.css"> <!-- remember the last css sheet that is linked is the one that is interpreted on the webpage! -->
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg  navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="font-family: 'Poppins', sans-serif;" href="#">RecruitMe</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto" id="navbuttons">
+              <a style="padding: 15px 20px;" class="nav-link" aria-current="page" href="#">Profile</a>
+              <a style="padding: 15px 20px;" class="nav-link" href="#">Features</a>
+              <a style="padding: 15px 20px;" class="nav-link" href="#">Pricing</a>
+              <a style="padding: 15px 20px;" class="nav-link" href="#">Contact</a>
+              <a style="padding: 15px 20px;" class="nav-link" href="#">Download</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Title -->
+      <div class="row">
+        <div class="col col-lg-6 ">
+          <h1>Don't wait. Make your breakthrough now.</h1>
+          <button type="button" style="font-family: 'Play', sans-serif;" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" style="font-family: 'Play', sans-serif;" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <div class="col col-lg-6">
+          <img class="app" src="images/App_final.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <!-- bootstrap requries that you nest column classes inside of a row class div-->
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-users-line fa-4x"></i>
+        <h3>Easy to use.</h3>
+        <p>Gain exposure to 1000+ schools across the nation.</p>
+      </div>
+
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-comments fa-4x"></i>
+        <h3>Elite Clientele.</h3>
+
+        <p>Connect 1-on-1 with recruiters and coaches.</p>
+      </div>
+
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-graduation-cap fa-4x"></i>
+        <h3>Real Results.</h3>
+        <p>Over half our users have gotten offers within a year.</p>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Being undersized I've always been overlooked, RecruitMe opened up doors for me I could never have imagined possible.</h2>
+          <img class="tyler" src="images/TylerUlis.jpg" alt="tyler-profile">
+          <em>Tyler Ulis, Point Guard, University of Kentucky</em>
+        </div>
+        <div class="carousel-item">
+          <h2>I've always had to play with a chip on my shoulder, RecruitMe allowed me to get the exposure I deserved and wasn't getting at camps and tournaments.</h2>
+          <img class="ja" src="images/ja_morant.jpg" alt="ja-profile">
+          <em>Ja Morant, Point Guard, Memphis Grizzles</em>
+        </div>
+        <div class="carousel-item">
+          <h2>I wish something like RecruitMehad been around when I was coming up, for underdogs like me, we need every edge we can get.</h2>
+          <img class="isaiah" src="images/isaiah_thomas.jpg" alt="IT-profile">
+          <em>isaiah Thomas, Point Guard, University of Washington</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+    </div>
+
+
+
+
+
+    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Athlete's Needs.</h2>
+    <p>Simple and affordable price plans.</p>
+    <div class="row">
+      <div class="pricing-col col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Rookie</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>Create Your Own Custom Player Profile</p>
+            <p>See Local and National Rankings</p>
+            <p>Connect With Other Players Across the Country</p>
+            <button class="btn btn-lg btn-block btn-outline-dark w-100" type="button">Sign Up</button>
+          </div>
+        </div>
+</div>
+<div class="pricing-col col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Pro</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 / mo</h2>
+            <p>Connect With Recruiters and Coaches</p>
+            <p>Gain Exposure to Exclusive Prep Camps</p>
+            <p>Increased Display on Coaches Version</p>
+            <button class="btn btn-lg btn-block btn-dark  w-100" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-col col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Seasoned</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 / mo</h2>
+            <p>Priority Listing</p>
+            <p>Unlimited Messages</p>
+            <p>Exclusive access to camps and recruiting events</p>
+            <button class="btn btn-lg btn-block btn-dark w-100" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Make Yourself Known Today.</h3>
+    <button type="button">Download</button>
+    <button type="button">Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright RecruitMe</p>
+
+  </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+.app{
+  border-radius: 25px;
+  transform: rotate(25deg);
+}
+
+h1{
+  font-family: 'Play', sans-serif;
+  line-height: normal;
+  font-size: 3.8rem;
+  color: white;
+}
+
+h2{
+  font-family: 'Play', bold;
+  font-size: 3rem;
+}
+
+h3{
+  font-family: 'Play', bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Navbar CSS */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link{
+  padding: 0 px;
+}
+
+#navbuttons{
+  margin-left: 200%;
+}
+
+.container-fluid{
+  padding: 2% 0%;
+}
+
+body{
+ font-family: 'Poppins', sans-serif;
+}
+
+/* Features section */
+#features{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+
+
+.icon{
+  color: #004385;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #274CC4;
+}
+
+/* buttons */
+.download-button{
+  margin: 5% 3% 5% 0%
+}
+button{
+  font-family: 'Play', sans-serif;
+}
+#title{
+  background-color: #004385;
+}
+
+
+/* Testimonials Section */
+
+#testimonials{
+  text-align: center;
+  background-color: #004385;
+  color: #fff;
+  padding-bottom: 5%;
+  line-height: 1.5;
+}
+
+.tyler{
+  height: 15%;
+  width: 15%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+.ja{
+  height: 15%;
+  width: 15%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+.isaiah{
+  height: 15%;
+  width: 15%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+#press{
+  background-color: #004385;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+  padding: 150px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 2% 3%;
+}
