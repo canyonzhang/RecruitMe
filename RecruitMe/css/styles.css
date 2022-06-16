@@ -1,14 +1,3 @@
-.app{
-  border-radius: 25px;
-  transform: rotate(25deg);
-}
-
-h1{
-  font-family: 'Play', sans-serif;
-  line-height: normal;
-  font-size: 3.8rem;
-  color: white;
-}
 
 h2{
   font-family: 'Play', bold;
@@ -17,16 +6,66 @@ h2{
 
 h3{
   font-family: 'Play', bold;
+  color: black;
+}
+
+body{
+ font-family: 'Poppins', sans-serif;
+ text-align: center;
+}
+
+button{
+  font-family: 'Play', sans-serif;
+}
+
+h4{
+  font-size: 2rem;
 }
 
 p{
   color: #8f8f8f;
 }
 
-/* Navbar CSS */
+/* Title section */
+.big-heading{
+  font-family: 'Play', sans-serif;
+  line-height: normal;
+  font-size: 3.8rem;
+  color: white;
+}
+
+#title{
+  background-color: #004385;
+}
+
+.app{
+  border-radius: 25px;
+  transform: rotate(25deg);
+  position: relative;
+  left: 15%;
+  top: 15%;
+}
+
+.intro-title{
+  text-align: left;
+}
+
+@media (max-width: 760px){ /* for screen sizes 760px in width and below, make these changes */
+  .app{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+
+/* Navbar*/
 
 .navbar{
-  padding-bottom: 4.5rem;
+  padding-bottom: 0rem;
 }
 
 
@@ -45,25 +84,20 @@ p{
 }
 
 .container-fluid{
-  padding: 2% 0%;
+  padding: 2% 0% 7%;
 }
 
-body{
- font-family: 'Poppins', sans-serif;
-}
 
-/* Features section */
+/* Features/Pricing section */
 #features{
   padding: 7% 15%;
-  text-align: center;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box{
-  text-align: center;
   padding: 5%;
 }
-
-
 
 .icon{
   color: #004385;
@@ -73,25 +107,21 @@ body{
   color: #274CC4;
 }
 
+.ranking{
+  color: "black";
+}
+
 /* buttons */
 .download-button{
   margin: 5% 3% 5% 0%
 }
-button{
-  font-family: 'Play', sans-serif;
-}
-#title{
-  background-color: #004385;
-}
-
 
 /* Testimonials Section */
 
 #testimonials{
-  text-align: center;
   background-color: #004385;
   color: #fff;
-  padding-bottom: 5%;
+  padding-bottom: 0%;
   line-height: 1.5;
 }
 
@@ -116,9 +146,13 @@ button{
   border-radius: 100%;
 }
 
+.player-detail{
+  margin-top:5%;
+  margin-bottom: 0;
+}
+
 #press{
   background-color: #004385;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -133,9 +167,24 @@ button{
 
 #pricing{
   padding: 150px;
-  text-align: center;
 }
 
 .pricing-col{
   padding: 2% 3%;
+}
+
+/* Call to action */
+
+#cta{
+  padding: 7% 15%;
+  background-color: #004385;
+}
+
+/* Footer section */
+#footer{
+  padding: 7% 15%;
+}
+
+.social-icon{
+  margin: 20px 10px;
 }

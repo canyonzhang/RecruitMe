@@ -33,11 +33,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto" id="navbuttons">
-              <a style="padding: 15px 20px;" class="nav-link" aria-current="page" href="#">Profile</a>
-              <a style="padding: 15px 20px;" class="nav-link" href="#">Features</a>
-              <a style="padding: 15px 20px;" class="nav-link" href="#">Pricing</a>
-              <a style="padding: 15px 20px;" class="nav-link" href="#">Contact</a>
-              <a style="padding: 15px 20px;" class="nav-link" href="#">Download</a>
+              <a style="padding: 15px 20px;" class="nav-link" href="#pricing">Features</a>
+              <a style="padding: 15px 20px;" class="nav-link" href="#pricing">Pricing</a>
+              <a style="padding: 15px 20px;" class="nav-link" href="#footer">Contact</a>
+              <a style="padding: 15px 20px;" class="nav-link" href="#cta">Download</a>
             </div>
           </div>
         </div>
@@ -45,7 +44,7 @@
       <!-- Title -->
       <div class="row">
         <div class="col col-lg-6 ">
-          <h1>Don't wait. Make your breakthrough now.</h1>
+          <h1 class = "big-heading intro-title">Don't wait. Make your breakthrough now.</h1>
           <button type="button" style="font-family: 'Play', sans-serif;" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
           <button type="button" style="font-family: 'Play', sans-serif;" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
         </div>
@@ -92,24 +91,28 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-
-
     <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h2>Being undersized I've always been overlooked, RecruitMe opened up doors for me I could never have imagined possible.</h2>
-          <img class="tyler" src="images/TylerUlis.jpg" alt="tyler-profile">
-          <em>Tyler Ulis, Point Guard, University of Kentucky</em>
+          <h4>Being undersized I've always been overlooked, RecruitMe opened up doors for me I could never have imagined possible.</h2>
+            <div class="player-detail">
+              <img class="tyler" src="images/TylerUlis.jpg" alt="Tyler-profile">
+              <em>Tyler Ulis, Point Guard, University of Kentucky</em>
+            </div>
         </div>
         <div class="carousel-item">
-          <h2>I've always had to play with a chip on my shoulder, RecruitMe allowed me to get the exposure I deserved and wasn't getting at camps and tournaments.</h2>
-          <img class="ja" src="images/ja_morant.jpg" alt="ja-profile">
-          <em>Ja Morant, Point Guard, Memphis Grizzles</em>
+          <h4>I've always had to play with a chip on my shoulder, RecruitMe allowed me to get the exposure I deserved and wasn't getting at camps and tournaments.</h2>
+            <div class="player-detail">
+              <img class="ja" src="images/ja_morant.jpg" alt="ja-profile">
+              <em>Ja Morant, Point Guard, Memphis Grizzles</em>
+            </div>
         </div>
         <div class="carousel-item">
-          <h2>I wish something like RecruitMehad been around when I was coming up, for underdogs like me, we need every edge we can get.</h2>
-          <img class="isaiah" src="images/isaiah_thomas.jpg" alt="IT-profile">
-          <em>isaiah Thomas, Point Guard, University of Washington</em>
+          <h4>I wish something like RecruitMehad been around when I was coming up, for underdogs like me, we need every edge we can get.</h2>
+            <div class="player-detail">
+              <img class="isaiah" src="images/isaiah_thomas.jpg" alt="IT-profile">
+              <em>Isaiah Thomas, Point Guard, University of Washington</em>
+            </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-bs-slide="prev">
@@ -121,28 +124,19 @@
         <span class="visually-hidden">Previous</span>
       </a>
     </div>
-
-
-
-
-
     <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
     <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
     <em>Beverly, Illinois</em> -->
 
   </section>
 
-
   <!-- Press -->
-
   <section id="press">
     <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
     <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
     <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
     <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-
   </section>
-
 
   <!-- Pricing -->
 
@@ -154,7 +148,7 @@
       <div class="pricing-col col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <h3>Rookie</h3>
+            <h3 class = "ranking">Rookie</h3>
           </div>
           <div class="card-body">
             <h2>Free</h2>
@@ -168,7 +162,7 @@
 <div class="pricing-col col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <h3>Pro</h3>
+            <h3 class = "ranking">Pro</h3>
           </div>
           <div class="card-body">
             <h2>$49 / mo</h2>
@@ -183,7 +177,7 @@
       <div class="pricing-col col-lg-4 col-md-12">
         <div class="card">
           <div class="card-header">
-            <h3>Seasoned</h3>
+            <h3 class = "ranking">Seasoned</h3>
           </div>
           <div class="card-body">
             <h2>$99 / mo</h2>
@@ -205,9 +199,9 @@
 
   <section id="cta">
 
-    <h3>Make Yourself Known Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class = "big-heading">Make Yourself Known Today.</h3>
+    <button type="button" style="font-family: 'Play', sans-serif;" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" style="font-family: 'Play', sans-serif;" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
 
   </section>
 
@@ -215,9 +209,10 @@
   <!-- Footer -->
 
   <footer id="footer">
-
+    <a href = "https://www.linkedin.com/in/canyon-zhang-86231a208/"><i class="social-icon fa-brands fa-twitter"></i></a>
+    <a href = "https://www.facebook.com/michael.tangston/"><i class="social-icon fa-brands fa-facebook"></i></a>
+    <a href = "https://www.instagram.com/canyonzhang"><i class="social-icon fa-brands fa-instagram"></i></a>
     <p>© Copyright RecruitMe</p>
-
   </footer>
 
 
